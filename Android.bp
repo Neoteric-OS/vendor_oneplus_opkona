@@ -46,17 +46,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "QualcommVoiceActivation",
-	owner: "oneplus",
-	apk: "proprietary/system/priv-app/QualcommVoiceActivation/QualcommVoiceActivation.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
